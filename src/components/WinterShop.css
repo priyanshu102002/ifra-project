@@ -1,9 +1,68 @@
-.winter {
-    height: 100vh;
-    width: 100%;
-    margin-top: 10rem;
+.winter-shop {
+    margin-top: 8rem;
     text-align: center;
+    /* padding-left: 8rem;
+    padding-right: 10rem; */
+}
+
+.winter-shop h3 {
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.winter {
+    width: 34.1875rem;
+    height: 22.125rem;
+}
+
+.winter-shop-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-card-left {
+    width: 34.1875rem;
+    height: 22.125rem;
+    background-color: rgba(188, 143, 143, 0.409);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-card-left button {
+    width: 7.8125rem;
+    height: 7.8125rem;
+    border-radius: 50%;
+    background-color: #fd0303;
+    outline: none;
+    border: none;
+
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Alice", serif;
+    color: white;
+}
+
+.btn-card-right {
+    width: 34.1875rem;
+    height: 22.125rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card2 {
+    width: 48%;
+    background-color: gray;
 }

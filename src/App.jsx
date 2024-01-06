@@ -1,5 +1,7 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Room from "./components/Room";
 import Shop from "./components/Shop";
 import WinterShop from "./components/WinterShop";
 
@@ -11,7 +13,9 @@ function App() {
                 <Hero />
                 <Shop />
                 <WinterShop />
+                <Room />
             </main>
+            <Footer />
         </>
     );
 }
