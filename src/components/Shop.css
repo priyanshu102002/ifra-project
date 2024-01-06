@@ -1,0 +1,41 @@
+.shop {
+    padding: 0 5.69rem;
+    /* background-color: blueviolet; */
+}
+
+.shop-wrapper {
+    text-align: center;
+    margin-top: 10.44rem;
+}
+
+.shop-wrapper h3 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 10.56rem 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+
+    gap: 10rem;
+
+}
+
+.cards-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.center{
+    object-position: left  !important;
+}
