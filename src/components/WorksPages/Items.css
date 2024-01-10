@@ -1,0 +1,42 @@
+.Items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 6rem;
+}
+
+.Items img{
+    width: 25rem;
+    height:  25rem;
+    object-fit: cover;
+}
+
+.text{
+    width: 50%;
+
+}
+
+.text h4{
+    color: #916847;
+
+font-family: Poppins;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 2.8rem */
+text-transform: capitalize;
+}
+
+.text p{
+    color: rgba(54, 54, 54, 0.81);
+
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+margin-top: 1rem;
+text-transform: capitalize;
+}
+

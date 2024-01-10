@@ -1,23 +1,45 @@
-import Footer from "./components/Footer";
+import Layout from "./Layout";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
 import Room from "./components/Room";
 import Shop from "./components/Shop";
 import WinterShop from "./components/WinterShop";
+import TableDecor from "./components/WorksPages/TableDecor";
+
+import {
+    RouterProvider,
+    Route,
+    createBrowserRouter,
+    createRoutesFromElements,
+} from "react-router-dom";
+
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<Layout />}>
+            <Route
+                path=""
+                element={
+                    <main>
+                        <Hero />
+                        <Shop />
+                        <WinterShop />
+                        <Room />
+                    </main>
+                }
+            />
+            <Route
+                path="shops"
+                element={
+                    <main>
+                        <TableDecor />
+                    </main>
+                }
+            />
+        </Route>
+    )
+);
 
 function App() {
-    return (
-        <>
-            <Navbar />
-            <main>
-                <Hero />
-                <Shop />
-                <WinterShop />
-                <Room />
-            </main>
-            <Footer />
-        </>
-    );
+    return <RouterProvider router={router} />;
 }
 
 export default App;

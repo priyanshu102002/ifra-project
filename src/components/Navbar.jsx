@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -29,16 +30,17 @@ const Navbar = () => {
                         />
                     </svg>
 
-                    <a href="#">Shop</a>
+                    <Link to="/shops">Shop</Link>
+                    
                 </div>
                 <div className="logo">
-                    <a href="#">
+                    <Link to="/">
                         <img src="./Images/logo.png" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="links">
-                    <a href="#">Sign in</a>
-                    <a href="#">Contact Us</a>
+                    <Link to="#">Sign in</Link>
+                    <Link to="#">Contact Us</Link>
                     <div className="links-cart">
                         <svg
                             width="30"
@@ -63,7 +65,7 @@ const Navbar = () => {
                                 stroke-linejoin="round"
                             />
                         </svg>
-                        <a href="#">Cart</a>
+                        <Link to="#">Cart</Link>
                     </div>
                 </div>
             </div>
@@ -93,11 +95,11 @@ const Navbar = () => {
             </div>
 
             <div className="navlinks">
-                <a href="#">New Arrival</a>
-                <a href="#">Metal</a>
-                <a href="#">Mud</a>
-                <a href="#">wood</a>
-                <a href="#">steel</a>
+                <Link to="#">New Arrival</Link>
+                <Link to="#">Metal</Link>
+                <Link to="#">Mud</Link>
+                <Link to="#">wood</Link>
+                <Link to="#">steel</Link>
             </div>
         </nav>
     );
