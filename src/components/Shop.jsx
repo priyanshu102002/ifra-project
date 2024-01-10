@@ -7,7 +7,7 @@ const Shop = () => {
     return (
         <section className="shop">
             <div className="shop-wrapper">
-                <img src="./public/images/circle.svg" alt="" />
+                <img src="/Images/circle.svg" alt="" />
                 <h3>Shop by category </h3>
                 <div className="cards">
                     <div className="cards-wrapper">

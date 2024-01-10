@@ -8,19 +8,19 @@ const Room = () => {
             <h3>Browse Ideas by Room</h3>
             <div className="Card3-wrapper">
                 <div className="card3">
-                    <img src="../public/images/living.jpg" alt="" />
+                    <img src="/Images/living.jpg" alt="" />
                     <h4>Living</h4>
                 </div>
                 <div className="card3">
-                    <img src="../public/images/bedroom.jpg" alt="" />
+                    <img src="/Images/bedroom.jpg" alt="" />
                     <h4>Bedroom</h4>
                 </div>
                 <div className="card3">
-                    <img src="../public/images/entry.jpg" alt="" />
+                    <img src="/Images/entry.jpg" alt="" />
                     <h4>Entry</h4>
                 </div>
                 <div className="card3">
-                    <img src="../public/images/home.jpg" alt="" />
+                    <img src="/Images/home.jpg" alt="" />
                     <h4>Home Office</h4>
                 </div>
             </div>

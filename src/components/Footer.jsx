@@ -5,7 +5,8 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <footer>
-            <img src="../public/images/logo.png" alt="" />
+            <img src="/Images/logo.png" alt="" />
+            <img src="/Images/logo.png" alt="" />
             <div className="nav-links">
                 <div className="categories">
                     <h4>CATEGORIES</h4>

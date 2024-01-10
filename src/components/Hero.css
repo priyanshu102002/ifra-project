@@ -1,7 +1,7 @@
 .hero {
     width: 100%;
     height: 80vh;
-    background: url("../public/images/landingImg.png"),
+    background: url("/Images/landingImg.png"),
         lightgray 0.58px -1347.901px / 100% 335.079% no-repeat;
     background-size: cover;
     background-color: black;

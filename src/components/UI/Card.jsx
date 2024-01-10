@@ -7,7 +7,7 @@ const Card = (props) => {
         <div className={`card ${props.classname}`}>
             <img
                 className={`image ${props.className}`}
-                src={`../../public/images/${props.img}`}
+                src={`/Images/${props.img}`}
                 alt={props.alt || "card image"}
             />
             <h5>{props.title || "title"}</h5>
