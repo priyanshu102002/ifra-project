@@ -1,22 +1,22 @@
 .tableDecor-wrapper {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
-    padding: 4rem 0;
+    padding: 4vw 0;
     position: relative;
-    margin-bottom: 12rem;
+    margin-bottom: 12vw;
 }
 
 .tableDecor-wrapper h2 {
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: center;
-    padding-bottom: 4rem;
+    padding-bottom: 4vw;
 }
 
 .tableDecor-sections {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2vw;
 }
 
 .reverse {
@@ -25,28 +25,34 @@
 
 .tableDecor-btn {
     background-color: #dfc7a7;
-    width: 24.875rem;
-    height: 5.5rem;
+    width: 24.875vw;
+    height: 5.5vw;
     border: none;
-    font-size: 1.25rem;
-    font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 
     color: #916847;
 
     font-family: Poppins;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 2.1rem */
-    letter-spacing: 0.15rem;
+    line-height: 140%;
+    letter-spacing: 0.15vw;
     text-transform: capitalize;
-
 
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 4rem;
+    margin-top: 4vw;
+}
+
+@media screen and (max-width: 768px) {
+    .tableDecor-btn {
+        font-size: 1.5vw;
+    }
+    .tableDecor-wrapper h2 {
+        font-size: 4vw;
+    }
 }

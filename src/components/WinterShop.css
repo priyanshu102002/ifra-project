@@ -1,35 +1,34 @@
 .winter-shop {
-    margin-top: 8rem;
+    margin-top: 8vw;
     text-align: center;
-    /* padding-left: 8rem;
-    padding-right: 10rem; */
 }
 
 .winter-shop h3 {
-    font-size: 2.25rem;
+    font-size: 2.25vw;
     font-style: normal;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin-bottom: 3vw;
 }
 
 .winter {
-    width: 34.1875rem;
-    height: 22.125rem;
+    width: 34.1875vw;
+    height: 22.125vw;
 }
 
 .winter-shop-wrapper {
     width: 80%;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 3vw 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 3vw;
+
 }
 
 .btn-card-left {
-    width: 34.1875rem;
-    height: 22.125rem;
+    width: 34.1875vw;
+    height: 22.125vw;
     background-color: rgba(188, 143, 143, 0.409);
 
     display: flex;
@@ -38,14 +37,14 @@
 }
 
 .btn-card-left button {
-    width: 7.8125rem;
-    height: 7.8125rem;
+    width: 7.8125vw;
+    height: 7.8125vw;
     border-radius: 50%;
     background-color: #fd0303;
     outline: none;
     border: none;
 
-    font-size: 2.25rem;
+    font-size: 2.25vw;
     font-style: normal;
     font-weight: 400;
     cursor: pointer;
@@ -54,9 +53,9 @@
 }
 
 .btn-card-right {
-    width: 34.1875rem;
-    height: 22.125rem;
-    gap: 1rem;
+    width: 34.1875vw;
+    height: 22.125vw;
+    gap: 1vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -65,4 +64,45 @@
 .card2 {
     width: 48%;
     background-color: gray;
+}
+
+@media screen and (max-width: 768px){
+    .winter-shop{
+        margin-top: 15vw;
+    }
+    .winter-shop h3 {
+        font-size: 4vw;
+    }
+
+    .winter-shop-wrapper {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .btn-card-left button{
+        width: 10vw;
+        height: 10vw;
+        font-size: 2vw;
+    }
+    .btn-card-left {
+        width: 40vw;
+        height: 25vw;
+    }
+    .btn-card-right{
+        width: 40vw;
+        height: 25vw;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .winter-shop{
+        margin-top: 20vw;
+    }
+    .btn-card-left {
+        width: 70vw;
+        height: 30vw;
+    }
+    .btn-card-right{
+        width: 70vw;
+        height: 30vw;
+    }
 }

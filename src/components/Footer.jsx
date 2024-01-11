@@ -6,7 +6,6 @@ const Footer = () => {
     return (
         <footer>
             <img src="/Images/logo.png" alt="" />
-            <img src="/Images/logo.png" alt="" />
             <div className="nav-links">
                 <div className="categories">
                     <h4>CATEGORIES</h4>
@@ -29,7 +28,7 @@ const Footer = () => {
                     <div className="input">
                         <input
                             type="text"
-                            placeholder="Yes, here’s my emaiil"
+                            placeholder="Email Address"
                         />
                         <button>&gt;</button>
                     </div>

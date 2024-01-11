@@ -1,19 +1,18 @@
 .shop {
-    padding: 0 5.69rem;
-    /* background-color: blueviolet; */
+    padding: 0 5.69vw;
 }
 
 .shop-wrapper {
     text-align: center;
-    margin-top: 10.44rem;
+    margin-top: 10.44vw;
 }
 
 .shop-wrapper h3 {
-    font-size: 3rem;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    padding: 10.56rem 0;
+    padding: 10.56vw 0;
 }
 
 .cards {
@@ -23,19 +22,37 @@
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-
-    gap: 10rem;
-
+    gap: 10vw;
 }
 
-.cards-wrapper{
+.cards-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.center {
+    object-position: left !important;
+}
+
+@media screen and (max-width: 768px) {
+    .cards-wrapper{
+        flex-wrap: wrap;
+    }
+    .cards {
+        gap: 10vw;
+    }
+    .cards-wrapper{
+        justify-content: space-evenly;
+        gap: 4rem;
+    }
     
 }
 
-.center{
-    object-position: left  !important;
+@media screen and (max-width: 414px) {
+    .cards {
+        gap: 20vw;
+    }
 }
+

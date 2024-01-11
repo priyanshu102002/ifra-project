@@ -4,8 +4,9 @@
     background: url("/Images/landingImg.png"),
         lightgray 0.58px -1347.901px / 100% 335.079% no-repeat;
     background-size: cover;
+    background-position: center;
     background-color: black;
-    padding: 0 6.75rem;
+    padding: 0 6.75vw;
 }
 
 .hero-wrapper {
@@ -13,28 +14,27 @@
 }
 
 .hero-wrapper h3 {
-    font-size: 2.25rem;
+    font-size: 2.25vw;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
     color: white;
-    padding-top: 10rem;
-    padding-bottom: 3.88rem;
-    
+    padding-top: 10vw;
+    padding-bottom: 3.88vw;
 }
 
 .hero-wrapper h5 {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
     color: white;
-padding-bottom: 7.31rem;
+    padding-bottom: 7.31vw;
     width: 50%;
 }
 
 .hero-wrapper button {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -42,7 +42,7 @@ padding-bottom: 7.31rem;
 
     background-color: transparent;
     border: 1px solid white;
-    padding: 0.5rem;
+    padding: 0.5vw;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -50,4 +50,36 @@ padding-bottom: 7.31rem;
 .hero-wrapper button:hover {
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        height: 50vh;
+    }
+    .hero-wrapper {
+        width: 100%;
+    }
+    .hero-wrapper h3{
+        font-size: 5vw;
+    }
+    .hero-wrapper h5{
+        font-size: 3vw;
+    }
+    .hero-wrapper button{
+        font-size: 3vw;
+        padding: 1vw;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .hero-wrapper h3{
+        font-size: 8vw;
+    }
+    .hero-wrapper h5{
+        font-size: 5vw;
+    }
+    .hero-wrapper button{
+        font-size: 3vw;
+        padding: 2vw;
+    }
 }
