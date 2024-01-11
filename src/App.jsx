@@ -1,4 +1,5 @@
 import Layout from "./Layout";
+import About from "./components/About";
 import Hero from "./components/Hero";
 import Room from "./components/Room";
 import Shop from "./components/Shop";
@@ -31,6 +32,14 @@ const router = createBrowserRouter(
                 element={
                     <main>
                         <TableDecor />
+                    </main>
+                }
+            />
+            <Route
+                path="about"
+                element={
+                    <main>
+                        <About />
                     </main>
                 }
             />
