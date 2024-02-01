@@ -4,7 +4,6 @@
 
 .shop-wrapper {
     text-align: center;
-    margin-top: 10.44vw;
 }
 
 .shop-wrapper h3 {
@@ -37,17 +36,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    .cards-wrapper{
+    .cards-wrapper {
         flex-wrap: wrap;
     }
     .cards {
         gap: 10vw;
     }
-    .cards-wrapper{
+    .cards-wrapper {
         justify-content: space-evenly;
         gap: 4rem;
     }
-    
 }
 
 @media screen and (max-width: 414px) {
@@ -55,4 +53,3 @@
         gap: 20vw;
     }
 }
-

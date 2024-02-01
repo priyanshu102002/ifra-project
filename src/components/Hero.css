@@ -1,16 +1,18 @@
 .hero {
     width: 100%;
     height: 80vh;
-    background: url("/Images/landingImg.png"),
-        lightgray 0.58px -1347.901px / 100% 335.079% no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-    padding: 0 6.75vw;
+    position: relative;
 }
 
 .hero-wrapper {
-    width: 50%;
+    width: 45%;
+    position: absolute;
+    left: 10%
+}
+
+.mainSwiper{
+    width: 100%;
+    height: 100%;
 }
 
 .hero-wrapper h3 {
@@ -52,33 +54,74 @@
     color: black;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination{
+    top: 10vw;
+    margin-top: 19vw;
+}
+
+.swiper-pagination-bullet{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #756557;
+}
+
+.swiper-pagination-bullet-active{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
 @media screen and (max-width: 768px) {
-    .hero{
+    .hero {
         height: 50vh;
     }
     .hero-wrapper {
-        width: 100%;
+        width: 80%;
     }
-    .hero-wrapper h3{
+    .hero-wrapper h3 {
         font-size: 5vw;
     }
-    .hero-wrapper h5{
+    .hero-wrapper h5 {
         font-size: 3vw;
     }
-    .hero-wrapper button{
+    .hero-wrapper button {
         font-size: 3vw;
         padding: 1vw;
     }
 }
 
 @media screen and (max-width: 415px) {
-    .hero-wrapper h3{
+    .hero-wrapper h3 {
         font-size: 8vw;
     }
-    .hero-wrapper h5{
+    .hero-wrapper h5 {
         font-size: 5vw;
     }
-    .hero-wrapper button{
+    .hero-wrapper button {
         font-size: 3vw;
         padding: 2vw;
     }
